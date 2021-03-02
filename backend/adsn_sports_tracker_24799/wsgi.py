@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'adsn_sports_tracker_24799.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "adsn_sports_tracker_24799.settings")
 
 application = get_wsgi_application()
